@@ -60,7 +60,7 @@ const CertificateInfo = () => {
 
           {/* Sample Certificate Image */}
           <div className="max-w-md flex-shrink-0 rounded-lg border border-gray-300 shadow-lg dark:border-gray-700">
-            <div className="relative h-[400] w-full overflow-hidden rounded-lg">
+            <div className="relative w-full overflow-hidden rounded-lg">
               <Image
                 src="/company/cert-sample.jpg"
                 alt="Certificate Sample"

@@ -165,8 +165,8 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 {/* Google Form Link */}
                 <Link
-                  href="https://docs.google.com/forms/d/1jo-l51zEwRFXWof3msANjR7IT9BJAXH2h2LwVYS45Fc/edit#settings" // Replace with your Google Form URL
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
+                  href="https://forms.gle/hxmbFF9MfopLTXGo6"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 rounded-xs px-8 py-2 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Register Here
                 </Link>

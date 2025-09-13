@@ -69,7 +69,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -105,7 +105,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -141,7 +141,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -194,7 +194,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -212,7 +212,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -230,7 +230,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -248,7 +248,7 @@ const NewsLatterBox = () => {
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "dark" ? "#4A6CF7" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>

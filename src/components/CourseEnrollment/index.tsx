@@ -2,8 +2,7 @@
 
 import React from "react";
 
-const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform"; // Replace with your actual Google Form URL
+const GOOGLE_FORM_URL = "https://forms.gle/hxmbFF9MfopLTXGo6"; // Replace with your actual Google Form URL
 
 const courses = [
   {

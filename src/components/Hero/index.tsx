@@ -24,7 +24,7 @@ const Hero = () => {
                 </p>
                 <div className="flex justify-center space-x-4">
                   <Link
-                    href="#enroll"
+                    href="https://forms.gle/hxmbFF9MfopLTXGo6"
                     className="inline-block rounded bg-blue-600 px-6 py-3 text-base font-medium text-white transition hover:bg-blue-700"
                   >
                     Enroll Now
