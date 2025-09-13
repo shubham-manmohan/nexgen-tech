@@ -116,18 +116,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/certification"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
-                      Blog
+                      Certification
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/internship"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
-                      Pricing
+                      Internship
                     </Link>
                   </li>
                   <li>
@@ -148,14 +148,6 @@ const Footer = () => {
                   Terms
                 </h2>
                 <ul>
-                  <li>
-                    <Link
-                      href="/"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      TOS
-                    </Link>
-                  </li>
                   <li>
                     <Link
                       href="/"
@@ -187,7 +179,7 @@ const Footer = () => {
                       href="/contact"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
-                      Open Support Ticket
+                      Open Support
                     </Link>
                   </li>
                   <li>
@@ -196,14 +188,6 @@ const Footer = () => {
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
                       Terms of Use
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      About
                     </Link>
                   </li>
                 </ul>

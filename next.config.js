@@ -4,14 +4,20 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.sanity.io",
+        hostname: "nlitedu.com",
         port: "",
       },
     ],
   },
+
   // Base path and asset prefix for GitHub Pages
-  basePath: '/nexgen-tech',  // Replace with your GitHub repository name (without the full URL)
-  assetPrefix: '/nexgen-tech',  // Same as basePath
+  // basePath: "/nexgen-tech",
+  // assetPrefix: "/nexgen-tech",
+  basePath: "",
+  assetPrefix: "",
+
+  // Use output export for static generation
+  // output: "export", // Tells Next.js to generate a static export
 };
 
 module.exports = nextConfig;

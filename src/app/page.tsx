@@ -1,35 +1,71 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
+import ScrollUp from "@/components/Common/ScrollUp";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Video from "@/components/Video";
+import Brands from "@/components/Brands";
+
+import AboutSectionOne from "@/components/About/AboutSectionOne";
+import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+
+import InternshipProgram from "@/components/InternshipProgram";
+import CourseEnrollment from "@/components/CourseEnrollment";
+import CertificateInfo from "@/components/CertificateInfo";
+import Testimonials from "@/components/Testimonials";
+import Pricing from "@/components/Pricing";
+import Contact from "@/components/Contact";
+import FAQ from "@/components/FAQ"; // Optional but recommended
 export const metadata: Metadata = {
   title: "NLIT | Empowering Future Innovators, Today!",
-  description: "Technology training, certification,internship .... ",
-  // other metadata
+  description:
+    "Technology training, certification, internship programs and real-world skills development at Nexgen Learning Institute of Technology (NLIT).",
 };
 
 export default function Home() {
   return (
     <>
       <ScrollUp />
+
+      {/* 1. Hero Section */}
       <Hero />
+
+      {/* 2. Announcement / Offer Banner */}
+
+      {/* 3. Key Features of NLIT */}
       <Features />
+
+      {/* 4. Company Intro Video */}
       <Video />
+
+      {/* 5. Strategic Partners */}
       <Brands />
+
+      {/* 6. About the Company (History, Mission, Vision) */}
       <AboutSectionOne />
+
+      {/* 7. Importance of Courses, Skill Focus */}
       <AboutSectionTwo />
+
+      {/* 8. Internship Program Details */}
+      <InternshipProgram />
+
+      {/* 9. Course Enrollment Instructions */}
+      <CourseEnrollment />
+
+      {/* 10. Sample Certificate & Benefits */}
+      <CertificateInfo />
+
+      {/* 11. Testimonials / Student Feedback */}
       <Testimonials />
-      <Pricing />
-      <Blog />
+
+      {/* 12. Course Pricing (Optional, only if public) */}
+      {/* <Pricing /> */}
+
+      {/* 13. Frequently Asked Questions (Optional) */}
+      <FAQ />
+
+      {/* 14. Contact Info */}
       <Contact />
     </>
   );

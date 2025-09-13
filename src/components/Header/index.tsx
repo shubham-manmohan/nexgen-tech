@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import RunningBanner from "../Common/RunningBanner";
 
 const Header = () => {
   // Navbar toggle
@@ -40,6 +41,9 @@ const Header = () => {
 
   return (
     <>
+      <div className="topBannerSection">
+        <RunningBanner />
+      </div>
       <header
         className={`header top-0 left-0 z-40 flex w-full items-center ${
           sticky

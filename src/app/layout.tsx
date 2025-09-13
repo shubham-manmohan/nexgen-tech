@@ -23,6 +23,7 @@ export default function RootLayout({
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
+          {/* <RunningBanner /> */}
           <Header />
           {children}
           <Footer />
@@ -34,4 +35,4 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-
+// import RunningBanner from "@/components/Common/RunningBanner";
