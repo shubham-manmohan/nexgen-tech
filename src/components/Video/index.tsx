@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import SectionTitle from "../Common/SectionTitle";
+import Image from "next/image";
 
 export default function Video() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -59,7 +60,12 @@ export default function Video() {
 
         <div className="absolute right-0 bottom-0 left-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat">
           <div className="absolute right-0 bottom-0 left-0 z-[-1]">
-            <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+            <Image
+              src="/images/video/shape.svg"
+              alt="shape"
+              className="w-full"
+              fill
+            />
           </div>
         </div>
       </div>
