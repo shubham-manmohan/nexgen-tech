@@ -8,7 +8,7 @@ const Hero = () => {
   const [showWelcome, setShowWelcome] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowWelcome(false), 4500); // Hide after 4.5 sec
+    const timer = setTimeout(() => setShowWelcome(false), 6000); // Hide after 4.5 sec
     return () => clearTimeout(timer);
   }, []);
 

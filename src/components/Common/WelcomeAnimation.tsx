@@ -66,9 +66,13 @@ const WelcomeAnimation = () => {
   useEffect(() => {
     let i = 0;
     const interval = setInterval(() => {
-      setTypedText((prev) => prev + fullTitle[i]);
-      i++;
-      if (i === fullTitle.length) clearInterval(interval);
+      const nextChar = fullTitle[i];
+      if (nextChar) {
+        setTypedText((prev) => prev + nextChar);
+        i++;
+      } else {
+        clearInterval(interval);
+      }
     }, typingSpeed);
 
     return () => clearInterval(interval);

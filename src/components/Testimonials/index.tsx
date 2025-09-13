@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Software Engineer @ Infosys",
     content:
       "NLIT's Python for Data Science & AI course helped me transition into a data analyst role smoothly. The hands-on projects and real-time mentorship were invaluable!",
-    image: "/images/testimonials/auth-01.png",
+    image: "/images/testimonials/user-m.png",
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Civil Engineer @ L&T",
     content:
       "The AutoCAD and Revit BIM courses gave me practical skills that directly applied to my projects. The internship program helped me build confidence and industry connections.",
-    image: "/images/testimonials/auth-02.png",
+    image: "/images/testimonials/user-m.png",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Mobile Developer @ Tata Consultancy Services",
     content:
       "I loved the Android & iOS Mobile Development course. The curriculum was up-to-date, and the instructors were very supportive throughout the internship experience.",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/testimonials/user-m.png",
     star: 5,
   },
 ];
