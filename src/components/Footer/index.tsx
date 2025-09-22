@@ -32,7 +32,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://www.facebook.com/share/19ZWSawgdU/"
+                    href="https://www.facebook.com/share/1D43pbZNez/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -52,27 +52,24 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://wa.me/918092378320" // Replace with your actual number
+                    aria-label="WhatsApp"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color hover:text-dark dark:text-body-color-dark dark:hover:text-primary mr-6 duration-300"
+                    className="text-body-color mr-6 dark:text-body-color-dark dark:hover:text-primary duration-300 hover:text-green-500"
                   >
                     <svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 22 22"
-                      fill="none"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 448 512"
+                      fill="currentColor"
+                      className="fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M13.9831 19.25L9.82094 13.3176L4.61058 19.25H2.40625L8.843 11.9233L2.40625 2.75H8.06572L11.9884 8.34127L16.9034 2.75H19.1077L12.9697 9.73737L19.6425 19.25H13.9831ZM16.4378 17.5775H14.9538L5.56249 4.42252H7.04674L10.808 9.6899L11.4584 10.6039L16.4378 17.5775Z"
-                        fill="currentColor"
-                      />
+                      <path d="M380.9 97.1C339 55.2 283.3 32 224.8 32 103.5 32 .3 135.2 0 256c-.3 49.7 13.1 98.3 38.3 140.5L2.2 480l88.9-23.4C132.6 478.7 177.6 488 224 488h.8c121.3 0 224.5-103.2 223.2-224.8.8-58.4-22.5-114.2-67.1-166.1zM224.8 440c-40.7.1-80.5-10.5-115.4-30.7l-8.2-4.8-52.7 13.9 14-51.3-5.3-8.3c-23.4-36.4-35.6-78.3-35.4-121.4.4-102.1 83.3-185 185.4-185 49.6 0 96.2 19.4 131.2 54.4 35 35 54.3 81.5 54 130.9.5 102.2-82.6 186.1-184.9 186.3zM314.3 302.6c-5.3-2.7-31.5-15.5-36.4-17.3-4.9-1.8-8.4-2.7-12 2.7s-13.8 17.3-16.9 20.8c-3.1 3.6-6.2 4-11.5 1.3s-22.4-8.2-42.7-26.3c-15.8-14.1-26.5-31.4-29.6-36.7-3.1-5.3-.3-8.2 2.3-11s5.3-6.2 7.9-9.3c2.6-3.1 3.5-5.3 5.3-8.9s.9-6.7-.4-9.3c-1.3-2.7-12-28.9-16.5-39.6-4.3-10.3-8.7-8.9-12.1-9.1-3.1-.2-6.7-.2-10.2-.2s-9.3 1.3-14.1 6.7c-4.8 5.3-18.4 18-18.4 43.8s18.8 50.8 21.4 54.3c2.6 3.6 36.9 56.4 89.4 79.1 12.5 5.4 22.2 8.6 29.8 11 12.5 4 23.9 3.4 32.9 2.1 10-1.5 31-12.6 35.4-24.8 4.3-12.2 4.3-22.7 3-24.8-1.3-2.2-4.8-3.5-10.1-6.2z" />
                     </svg>
                   </a>
+
                   <a
                     href="https://www.youtube.com/@Nlit-v3k"
                     aria-label="social-link"
@@ -207,7 +204,13 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="py-8">
+          {/* Add Footer */}
+          <div className="py-8 text-center">
+            <p className="text-sm text-gray-600">
+              &copy; 2025 NLIT Education. All rights reserved.
+            </p>
+          </div>
+          {/* <div className="py-8">
             <p className="text-body-color text-center text-base dark:text-white">
               Developed by{" "}
               <a
@@ -219,7 +222,7 @@ const Footer = () => {
                 nlit
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="absolute top-14 right-0 z-[-1]">
           <svg

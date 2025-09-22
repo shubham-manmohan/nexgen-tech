@@ -16,6 +16,7 @@ import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ"; // Optional but recommended
+import HiringSection from "@/components/Common/HiringSection";
 export const metadata: Metadata = {
   title: "NLIT | Empowering Future Innovators, Today!",
   description:
@@ -46,6 +47,8 @@ export default function Home() {
 
       {/* 7. Importance of Courses, Skill Focus */}
       <AboutSectionTwo />
+
+      <HiringSection />
 
       {/* 8. Internship Program Details */}
       <InternshipProgram />

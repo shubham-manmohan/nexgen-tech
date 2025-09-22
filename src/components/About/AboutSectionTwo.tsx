@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/graph-1.jpg"
                 alt="NLIT internship and training support"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
