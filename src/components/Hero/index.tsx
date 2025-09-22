@@ -1,18 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import WelcomeAnimation from "../Common/WelcomeAnimation";
 
 const Hero = () => {
-  const [showWelcome, setShowWelcome] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setShowWelcome(false), 6000); // Hide after 4.5 sec
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (showWelcome) return <WelcomeAnimation />;
   return (
     <>
       <section

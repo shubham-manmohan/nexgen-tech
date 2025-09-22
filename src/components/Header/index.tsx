@@ -108,9 +108,9 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block md:flex lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
+                      <li key={index} className="group relative justify-end">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
@@ -166,33 +166,15 @@ const Header = () => {
                 {/* Google Form Link */}
                 <Link
                   href="https://forms.gle/hxmbFF9MfopLTXGo6"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 rounded-xs px-8 py-2 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 rounded-xl px-8 py-2 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Register Here
+                  Register
                 </Link>
 
                 <div>
                   <ThemeToggler />
                 </div>
               </div>
-
-              {/* <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href="/signin"
-                  className="text-dark hidden px-7 py-3 text-base font-medium hover:opacity-70 md:block dark:text-white"
-                >
-                  Sign In
-                </Link>
-                <Link
-                  href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Sign Up
-                </Link>
-                <div>
-                  <ThemeToggler />
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

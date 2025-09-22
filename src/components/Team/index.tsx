@@ -47,11 +47,20 @@ const teamMembers = [
     bio: `With a strong technical background and marketing expertise, Sundaram Manmohan is responsible for driving NLIT's digital marketing initiatives and bridging the gap between technology and customer outreach.`,
     expertise: "SEO, Technical Marketing, Content Strategy, Digital Branding",
   },
+  {
+    name: "Ratnesh Sharma",
+    role: "Technical Department of NLIT",
+    image: "/company/ratnesh-sharma.jpg",
+    description: "(Video Editor)",
+    bio: `Ratnesh Sharma brings creativity and precision to NLIT’s visual storytelling. As a skilled video editor, he plays a key role in crafting engaging content that reflects our mission and connects with a wider audience.`,
+    expertise:
+      "Video Editing, Post-Production, Motion Graphics, Content Creation",
+  },
 ];
 
 const Team = () => {
   return (
-    <section className="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8 dark:bg-gray-900">
+    <section className="mt-4 bg-gray-50 px-4 py-16 sm:px-6 lg:px-8 dark:bg-gray-900">
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="mb-16 text-center">

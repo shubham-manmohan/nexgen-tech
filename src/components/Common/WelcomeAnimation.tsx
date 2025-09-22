@@ -5,6 +5,13 @@ import { motion, easeInOut, Variants } from "framer-motion";
 const fullTitle = "Welcome To Nexgen Learning Institute Of Technology";
 const typingSpeed = 50;
 
+import { Comfortaa } from "next/font/google";
+
+const comfortaa = Comfortaa({
+  subsets: ["latin"],
+  weight: ["400", "700"], // You can adjust weights
+  display: "swap",
+});
 // Variants for main container
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -80,7 +87,7 @@ const WelcomeAnimation = () => {
 
   return (
     <motion.section
-      className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-indigo-900 via-purple-800 to-fuchsia-700 px-6 text-white"
+      className={`flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-indigo-900 via-purple-800 to-fuchsia-700 px-6 text-white ${comfortaa.className}`}
       variants={containerVariants}
       initial="hidden"
       animate="visible"
