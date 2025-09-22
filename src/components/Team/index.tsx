@@ -10,9 +10,9 @@ const teamMembers = [
     role: "CEO & FOUNDER OF NLIT",
     image: "/company/nikhil-raj.jpg",
     description: "(Civil Engineer)",
-    bio: `Er. Nikhil Raj, the visionary founder of NLIT, combines over a decade of civil engineering expertise with unparalleled leadership. He is the driving force behind NLIT’s commitment to excellence in education, ensuring our curriculum adapts to real-world challenges.`,
+    bio: `Er. Nikhil Raj, the visionary founder of NLIT, brings extensive expertise in AutoCAD, Revit, and StaadPro, blending advanced technical skills with over a decade of civil engineering experience. His leadership ensures that NLIT stays at the forefront of industry-relevant education, empowering students with practical knowledge and cutting-edge tools.`,
     expertise:
-      "Leadership, Project Management, Civil Engineering, Strategic Planning",
+      "Leadership, Civil Engineering, Strategic Planning, AutoCAD, Revit, StaadPro",
   },
   {
     name: "Er. Ashutosh Kumar",
@@ -29,7 +29,7 @@ const teamMembers = [
     description: "(Mechanical Engineer)",
     bio: `A seasoned Mechanical Engineer, Er. Rajni Kant's extensive experience in the industry allows him to steer NLIT’s academic projects and ensure a seamless integration between theoretical learning and hands-on applications.`,
     expertise:
-      "Mechanical Engineering, Research & Development, Project Oversight, Process Optimization",
+      "AutoCAD, Revit, SolidWorks, StaadPro, Mechanical Engineering, Research & Development",
   },
   {
     name: "Sourav Raj",
@@ -51,10 +51,10 @@ const teamMembers = [
     name: "Ratnesh Sharma",
     role: "Technical Department of NLIT",
     image: "/company/ratnesh-sharma.jpg",
-    description: "(Video Editor)",
-    bio: `Ratnesh Sharma brings creativity and precision to NLIT’s visual storytelling. As a skilled video editor, he plays a key role in crafting engaging content that reflects our mission and connects with a wider audience.`,
+    description: "(Video & Graphic Designer)",
+    bio: `Ratnesh Sharma is a creative force behind NLIT’s visual identity. With expertise in both video editing and graphic design, he crafts compelling multimedia content that enhances our brand presence and engages learners across platforms.`,
     expertise:
-      "Video Editing, Post-Production, Motion Graphics, Content Creation",
+      "Video Editing, Graphic Design, Motion Graphics, Visual Storytelling,  Content Creation",
   },
 ];
 
