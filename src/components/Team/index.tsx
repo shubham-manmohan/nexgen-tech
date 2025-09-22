@@ -41,7 +41,7 @@ const teamMembers = [
   },
   {
     name: "Sundaram Manmohan",
-    role: "Senior Marketing Technical",
+    role: "Senior Marketing",
     image: "/company/sundaram-manmohan.jpg",
     description: "(Senior Marketing Specialist)",
     bio: `With a strong technical background and marketing expertise, Sundaram Manmohan is responsible for driving NLIT's digital marketing initiatives and bridging the gap between technology and customer outreach.`,
@@ -49,7 +49,7 @@ const teamMembers = [
   },
   {
     name: "Ratnesh Sharma",
-    role: "Technical Department of NLIT",
+    role: "Creative Media Team of NLIT",
     image: "/company/ratnesh-sharma.jpg",
     description: "(Video & Graphic Designer)",
     bio: `Ratnesh Sharma is a creative force behind NLIT’s visual identity. With expertise in both video editing and graphic design, he crafts compelling multimedia content that enhances our brand presence and engages learners across platforms.`,
