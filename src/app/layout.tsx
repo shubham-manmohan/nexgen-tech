@@ -10,6 +10,7 @@ import WelcomeAnimation from "@/components/Common/WelcomeAnimation";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
 import { Providers } from "./providers";
+import { usePathname } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +20,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const [showWelcome, setShowWelcome] = useState(true);
+  const pathname = usePathname();
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowWelcome(false), 6000); // 6 seconds
+    if (pathname !== "/") {
+      setShowWelcome(false); // don’t show on subpages
+      return;
+    }
+    const timer = setTimeout(() => setShowWelcome(false), 4000);
     return () => clearTimeout(timer);
-  }, []);
+  }, [pathname]);
 
   return (
     <html suppressHydrationWarning lang="en">

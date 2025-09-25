@@ -18,7 +18,7 @@ const HiringSection = () => {
           >
             <Image
               src="/images/hiring-graph.jpg"
-              alt="We're hiring at NLIT"
+              alt="We are hiring at NLIT"
               width={500}
               height={300}
               className="rounded-xl object-cover shadow-xl"
@@ -37,12 +37,12 @@ const HiringSection = () => {
             </h2>
 
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              We’re looking for passionate educators, tech experts, and creative
+              We&apos;re looking for passionate educators, tech experts, and creative
               minds who want to transform the way technology is taught.
               <br />
               <br />
-              At NLIT, you won’t just be an employee — you’ll be part of a
-              movement to inspire future innovators. If you're ready to work on
+              At NLIT, you won&apos;t just be an employee — you&apos;ll be part of a
+              movement to inspire future innovators. If you&apos;re ready to work on
               cutting-edge education, lead real-world projects, and make a
               difference — we want you on our team.
             </p>

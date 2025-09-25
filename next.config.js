@@ -13,8 +13,8 @@ const nextConfig = {
   // Base path and asset prefix for GitHub Pages
   // basePath: "/nexgen-tech",
   // assetPrefix: "/nexgen-tech",
-  // basePath: "",
-  // assetPrefix: "",
+  basePath: "",
+  assetPrefix: "",
 
   // Use output export for static generation
 

@@ -56,6 +56,24 @@ const teamMembers = [
     expertise:
       "Video Editing, Graphic Design, Motion Graphics, Visual Storytelling,  Content Creation",
   },
+  {
+    name: "Er. Prem Ranjan Kumar",
+    role: "Civil Engineer",
+    image: "/company/prem-ranjan-kumar.jpg",
+    description: "(Specialist in AutoCAD, Revit, StadPro, E-Tab)",
+    bio: `Er. Prem Ranjan Kumar is a skilled Civil Engineer with expertise in structural design and drafting. He has hands-on experience using industry-leading tools like AutoCAD, Revit, StadPro, and E-Tab to deliver precise and efficient engineering solutions.`,
+    expertise: "AutoCAD, Revit, StadPro, E-Tab, Structural Design, Drafting",
+  },
+  {
+    name: "Er. Vishal Kumar",
+    role: "Electrical Engineer",
+    image: "/company/vishal-kumar.jpg",
+    description:
+      "(B.Tech in Electrical Engineering, M.Tech in Instrumental Engineering & Control System)",
+    bio: `Er. Vishal Kumar holds a B.Tech in Electrical Engineering from Muzaffarpur Institute of Technology and an M.Tech in Instrumental Engineering and Control System from Dr. APJ Abdul Kalam Technical University. His academic excellence and technical expertise make him proficient in designing, analyzing, and implementing advanced electrical and control systems.`,
+    expertise:
+      "Electrical Engineering, Instrumentation, Control Systems, Power Systems, Circuit Design",
+  },
 ];
 
 const Team = () => {
